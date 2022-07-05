@@ -18,6 +18,7 @@ public class GManager : MonoBehaviour
         gameoverText.SetActive(false);
         retryButtion.SetActive(false);
         score = 500;
+        Application.targetFrameRate = 60;
     }
 
     void Update()
