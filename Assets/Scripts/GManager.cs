@@ -19,6 +19,7 @@ public class GManager : MonoBehaviour
         retryButtion.SetActive(false);
         score = 500;
         Application.targetFrameRate = 60;
+        Screen.SetResolution(1920, 1080, false);
     }
 
     void Update()
